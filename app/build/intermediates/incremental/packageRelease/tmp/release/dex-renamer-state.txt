@@ -1,0 +1,4 @@
+#Sun Jul 14 00:15:48 PDT 2019
+base.0=/Users/richardpryce/Downloads/android-managing-app-data-sqlite/07/exercise-files/after/AndelaAssignment/app/build/intermediates/dex/release/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

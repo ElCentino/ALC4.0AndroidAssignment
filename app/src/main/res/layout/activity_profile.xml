@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="434dp"
+                android:layout_height="238dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/me" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/my_name"
+                android:layout_margin="@dimen/name_margin"
+                android:textSize="25sp"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/horizontal_rule" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/layout_item_margin"
+                android:layout_marginLeft="@dimen/layout_item_margin"
+                android:layout_marginRight="@dimen/layout_item_margin"
+                android:layout_marginBottom="@dimen/layout_item_margin_bottom"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="@dimen/layout_item_text_size"
+                    android:layout_gravity="left"
+                    android:text="@string/track" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:textSize="@dimen/layout_item_text_size"
+                    android:layout_gravity="left"
+                    android:text="@string/track_android" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/layout_item_margin"
+                android:layout_marginRight="@dimen/layout_item_margin"
+                android:layout_marginBottom="@dimen/layout_item_margin_bottom"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="@dimen/layout_item_text_size"
+                    android:layout_gravity="left"
+                    android:text="@string/country" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:textSize="@dimen/layout_item_text_size"
+                    android:layout_gravity="left"
+                    android:text="@string/country_ghana" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/layout_item_margin"
+                android:layout_marginRight="@dimen/layout_item_margin"
+                android:layout_marginBottom="@dimen/layout_item_margin_bottom"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:textSize="@dimen/layout_item_text_size"
+                    android:layout_gravity="left"
+                    android:text="@string/email" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:textSize="@dimen/layout_item_text_size"
+                    android:layout_gravity="left"
+                    android:text="@string/email_elcentinos_gmail_com" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/layout_item_margin"
+                android:layout_marginRight="@dimen/layout_item_margin"
+                android:layout_marginBottom="@dimen/layout_item_margin_bottom"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="@dimen/layout_item_text_size"
+                    android:layout_gravity="left"
+                    android:text="@string/phone_number" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="@dimen/layout_item_text_size"
+                    android:layout_gravity="left"
+                    android:text="@string/my_phone_number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/layout_item_margin"
+                android:layout_marginRight="@dimen/layout_item_margin"
+                android:layout_marginBottom="@dimen/layout_item_margin_bottom"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="@dimen/layout_item_text_size"
+                    android:layout_gravity="left"
+                    android:text="@string/slack_username" />
+
+                <TextView
+                    android:id="@+id/slack_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textSize="@dimen/layout_item_text_size"
+                    android:layout_gravity="left" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

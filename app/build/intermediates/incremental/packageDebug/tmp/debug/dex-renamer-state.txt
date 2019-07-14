@@ -1,0 +1,7 @@
+#Sun Jul 14 00:09:31 PDT 2019
+base.0=/Users/richardpryce/Downloads/android-managing-app-data-sqlite/07/exercise-files/after/AndelaAssignment/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/richardpryce/Downloads/android-managing-app-data-sqlite/07/exercise-files/after/AndelaAssignment/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

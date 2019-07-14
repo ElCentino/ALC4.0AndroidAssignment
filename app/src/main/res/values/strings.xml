@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="home_title">Welcome to ALC 4.0</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="about_title">About ALC</string>
+    <string name="alc_wb_link">https://andela.com/alc/</string>
+    <string name="notification_error_ssl_cert_invalid">Grant SSL Permission ?</string>
+    <string name="my_name">Favour Onuoha</string>
+    <string name="track">Track</string>
+    <string name="track_android">Android</string>
+    <string name="country">Country</string>
+    <string name="country_ghana">Ghana</string>
+    <string name="email">Email</string>
+    <string name="email_elcentinos_gmail_com">elcentinos@gmail.com</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="my_phone_number">+233505751578</string>
+    <string name="slack_username">Slack Username</string>
+</resources>
